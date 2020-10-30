@@ -19,9 +19,10 @@ The goal of the game is to pop all balloons traveling down a road before they re
 Each level is loaded from XML format. This makes it easy to create new levels.
 
 First the level is defined. The width and height of the map are specified, as well as the starting coordinate from which balloons will spawn.
+
 `<level width="16" height="16" start-y="7" start-x="0">`
 
-Levels are comprised of 4 types of tiles. These are defined in the <items> XML tag:
+Levels are comprised of 4 types of tiles. These are defined in the `<items>` XML tag:
 * Road - Balloons will spawn and travel down the road
   * `<road id="i001" x="0" y="7"/>`
 * Open - Towers can be placed on Open tiles
@@ -31,7 +32,7 @@ Levels are comprised of 4 types of tiles. These are defined in the <items> XML t
 * Trees - Towers cannot be placed on Trees
   * `<trees id="i004" x="0" y="7"/>`
   
-Items are assigned an id, which are defined in the <declarations> XML tag. This defines the image used to the tile, and for road tiles define their direction
+Items are assigned an id, which are defined in the `<declarations>` XML tag. This defines the image used to the tile, and for road tiles define their direction
 * `<road id="i001" image="roadEW.png" type="EW"/>`
 * `<open id="i002" image="grass1.png"/>`
 * `<house id="i003" image="house1.png"/>`
