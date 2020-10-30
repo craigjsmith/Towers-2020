@@ -13,7 +13,7 @@ The goal of the game is to pop all balloons traveling down a road before they re
 
 ![Cross Tower](images/new-Cross-Tower.png) The cross tower shoots projectiles every 5 seconds, alternating between 
 
-![Bomb](images/tower-bomb.png) The bomb explodes, popping all balloons in its radius. Bombs explode 3 seconds apart in the order they were placed.
+![Bomb](images/tower-bomb.png) The bomb explodes 3 seconds apart in the order they were placed, popping all balloons in its radius.
 
 ## Level Format
 Each level is loaded from XML format. This makes it easy to create new levels.
