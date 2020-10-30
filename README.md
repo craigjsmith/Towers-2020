@@ -11,7 +11,7 @@ The goal of the game is to pop all balloons traveling down a road before they re
 
 ![Ring Tower](images/tower-rings.png) The ring tower generates a ring every 5 seconds, popping all baloons in its radius.
 
-![Cross Tower](images/new-Cross-Tower.png) The cross tower shoots projectiles every 5 seconds, alternating between 
+![Cross Tower](images/new-Cross-Tower.png) The cross tower shoots projectiles every 5 seconds, alternating between + and X shapes.
 
 ![Bomb](images/tower-bomb.png) The bomb explodes 3 seconds apart in the order they were placed, popping all balloons in its radius.
 
